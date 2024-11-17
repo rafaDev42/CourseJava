@@ -87,7 +87,7 @@ public class Exercises {
 		valueHour = sc.nextDouble();
 
 		salary = hourWorked * valueHour;
-
+        .
 		System.out.printf("Your salary is = $ %.2f", salary);
 		---------------------------------------------------------------------
 
