@@ -94,7 +94,7 @@ public class Exercises {
 		System.out.printf("Your salary is = $ %.2f", salary);
 		---------------------------------------------------------------------
 		Exercicio proposto - 5
-        */
+
         int cod1, cod2, qt1, qt2;
         double price1, price2, total;
 
@@ -110,6 +110,29 @@ public class Exercises {
         total = qt1 * price1 + qt2 * price2;
 
         System.out.printf("Total of your purchase is = %.2f ", total);
+
+        ---------------------------------------------------------------------
+        Exercicio proposto - 6
+        */
+
+        double A, B, C, triangle, circle, trapeze, square, rectangle;
+        double pi = 3.14159;
+
+        A = sc.nextDouble();
+        B = sc.nextDouble();
+        C = sc.nextDouble();
+
+        triangle = A * C /2.0;
+        circle = pi * Math.pow(C, 2);
+        trapeze = (A + B) * C / 2.0;
+        square = B * B;
+        rectangle = A * B;
+
+        System.out.printf("The triangle's, is: %.3f \n", triangle);
+        System.out.printf("The circle's area is: %.3f \n", circle);
+        System.out.printf("The area of trapeze, is: %.3f \n", trapeze);
+        System.out.printf("The square's area, is: %.3f \n", square);
+        System.out.printf("The rectangle's area is: %.3f", rectangle);
 
         sc.close();
     }
