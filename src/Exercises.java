@@ -1,8 +1,11 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercises {
 
     public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         // Exercicio da aula
 		/*
@@ -90,10 +93,23 @@ public class Exercises {
         .
 		System.out.printf("Your salary is = $ %.2f", salary);
 		---------------------------------------------------------------------
-
 		Exercicio proposto - 5
         */
+        int cod1, cod2, qt1, qt2;
+        double price1, price2, total;
 
+        System.out.println("Enter the first product code, quantity and value: ");
+        cod1 = sc.nextInt();
+        qt1 = sc.nextInt();
+        price1 = sc.nextDouble();
+        System.out.println("Enter the second product code, quantity and value: ");
+        cod2 = sc.nextInt();
+        qt2 = sc.nextInt();
+        price2 = sc.nextDouble();
+
+        total = qt1 * price1 + qt2 * price2;
+
+        System.out.printf("Total of your purchase is = %.2f ", total);
 
         sc.close();
     }
