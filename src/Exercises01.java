@@ -1,13 +1,13 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercises {
+public class Exercises01 {
 
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        // Exercicio da aula
+        // Exercise of lesson about sequential structure
 		/*
 		 * String product1 = "Computer"; String product2 = "Office Desk";
 		 *
