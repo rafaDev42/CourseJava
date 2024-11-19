@@ -66,8 +66,7 @@ public class Exercises02 {
         System.out.printf("The game lasted " + duration + " hour(s) ");
 
         --------------------------------------------------------
-        Exercise 4
-        */
+        Exercise 5
         System.out.println("What is the product number of you choice ?");
         int product = sc.nextInt();
         System.out.println("Whats the quantity ? ");
@@ -89,6 +88,46 @@ public class Exercises02 {
         } else {
             total = quantity * 1.50;
             System.out.printf("Your order is a %d Soda(s) and it costs: $ %.2f", quantity, total);
+        }
+        --------------------------------------------------------
+        Exercise 6
+
+        System.out.println("Please, enter decimal number: ");
+        double number = sc.nextDouble();
+
+        if(number < 0.0 || number > 100.0){
+            System.out.println("Out of range");
+        } else if(number <= 25.0){
+            System.out.println("Interval = 0 at 25");
+        } else if (number <= 50.0) {
+            System.out.println("Interval = 25 a 50");
+        } else if (number <= 75.0) {
+            System.out.println("Interval = 50 at 75");
+        } else{
+            System.out.println("Interval 75 at 100");
+        }
+        --------------------------------------------------------
+        Exercise 7
+         */
+
+        System.out.println("Enter the amount of your earnings to calculate your income tax:");
+        double salary = sc.nextDouble();
+        double tax;
+
+        if (salary <= 2000.0) {
+            tax = 0.0;
+        } else if (salary <= 3000.0) {
+            tax = (salary - 2000.0) * 0.08;
+        } else if (salary <= 4500.0) {
+            tax = (salary - 3000) * 0.18 + 1000.0 * 0.08;
+        } else {
+            tax = (salary - 4500) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+        }
+
+        if(tax == 0.0){
+            System.out.println("You're freeeeee");
+        } else{
+            System.out.printf("The Federal Revenue lion has eaten: $ %.2f of your assets", tax);
         }
 
         sc.close();
