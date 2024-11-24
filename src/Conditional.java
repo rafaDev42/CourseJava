@@ -29,6 +29,10 @@ public class Conditional {
         } else {
             System.out.println("Boa noite!");
         }
+
+        /*Estrutura condicional ternária
+        (condição) ? valor_se_verdadeiro : valor_se_falso; */
+
         sc.close();
     }
 }
