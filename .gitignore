@@ -23,7 +23,8 @@ bin/
 /.nb-gradle/
 .idea/
 /out
-
+/
+/javinha.iml
 ### VS Code ###
 .vscode/
 
