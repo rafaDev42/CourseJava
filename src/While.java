@@ -43,13 +43,13 @@ public class While {
 
         while (x != 0 && y != 0) {
             if (x > 0 && y > 0) {
-                System.out.println("primeiro");
+                System.out.println("first");
             } else if (x < 0 && y > 0) {
-                System.out.println("segundo");
+                System.out.println("second");
             } else if (x < 0 && y < 0) {
-                System.out.println("terceiro");
+                System.out.println("third");
             } else {
-                System.out.println("quarto");
+                System.out.println("forth");
             }
             x = sc.nextInt();
             y = sc.nextInt();
