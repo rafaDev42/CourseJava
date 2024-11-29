@@ -10,7 +10,8 @@ public class NoObject {
 
         double xA, xB, xC, yA, yB, yC;
 
-
+        //The first code of the new module, here we not use OO yet
+        //Coming soon we goes to use OO for solve of this trouble
 
         System.out.println("Enter the measures of triangle X: ");
         xA = sc.nextDouble();
