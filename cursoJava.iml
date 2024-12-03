@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Exercises1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.idea/ProjectAccount" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ProjectAccount" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vectors" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
